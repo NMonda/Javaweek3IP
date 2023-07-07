@@ -1,4 +1,18 @@
 package ke.co.pookie;
+import ke.co.pookie.dao.Animals_DAO;
+import ke.co.pookie.dao.Rangers_DAO;
+import ke.co.pookie.dao.Sighting_DAO;
+import ke.co.pookie.models.Animals;
+import ke.co.pookie.models.Rangers;
+import ke.co.pookie.models.Sighting;
+import spark.ModelAndView;
+import spark.template.handlebars.HandlebarsTemplateEngine;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import static spark.Spark.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
