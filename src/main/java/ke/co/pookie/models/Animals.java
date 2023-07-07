@@ -13,6 +13,36 @@ public class Animals {
 
     public void setAnimal(String animal) { this.animal = animal; }
     public void setId(Integer id) { this.id = id; }
+
+    public Animals() {
+        super();
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
     public void setEndangered(Boolean endangered) { this.endangered = endangered; }
     public void setDeleted(Boolean deleted) { this.deleted = deleted; }
 
