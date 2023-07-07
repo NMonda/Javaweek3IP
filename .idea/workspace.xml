@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10; added Sighting.java, Rangers.java and Animals.java models">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Sighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Sighting.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10; override methods generated  to  Animals.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,14 +92,46 @@
       <option name="project" value="LOCAL" />
       <updated>1688726517496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10; imported a util to  Sighting.java">
+      <created>1688726735547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688726735547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&#10; overide generated   Sighting.java">
+      <created>1688726805161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688726805161</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10; override methods generated  to  Rangers.java.java">
+      <created>1688726854696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688726854696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#10; override methods generated  to  Animals.java">
+      <created>1688726899915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688726899915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project structure defined &#10; added database and dao" />
     <MESSAGE value="&#10; added Database.java content" />
     <MESSAGE value="&#10; added Sighting.java, Rangers.java and Animals.java models" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10; added Sighting.java, Rangers.java and Animals.java models" />
+    <MESSAGE value="&#10; imported a util to  Sighting.java" />
+    <MESSAGE value="&#10; overide generated   Sighting.java" />
+    <MESSAGE value="&#10; override methods generated  to  Rangers.java.java" />
+    <MESSAGE value="&#10; override methods generated  to  Animals.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10; override methods generated  to  Animals.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
