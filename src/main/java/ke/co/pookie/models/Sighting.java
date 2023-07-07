@@ -32,6 +32,35 @@ public class Sighting{
     public Date getTime() { return time; }
     public Boolean getDeleted() { return deleted; }
 
+    public Sighting() {
+        super();
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
     public Sighting(Integer id, String animal, Boolean endangered, String age, String health, String location, String ranger, Date time, Boolean deleted) {
         this.id = id;
         this.animal = animal;
