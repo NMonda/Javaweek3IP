@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;main.java PATH DEFINED AND correct routing done">
+    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;Rangers_DAO and Animals_DAO patterns added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Animals_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Animals_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Rangers_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Rangers_DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Sighting_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/dao/Sighting_DAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688728132503</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;Rangers_DAO and Animals_DAO patterns added">
+      <created>1688729498538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688729498551</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,7 +157,8 @@
     <MESSAGE value="&#10; override methods generated  to  Animals.java" />
     <MESSAGE value="&#10;main.java modified" />
     <MESSAGE value="&#10;main.java PATH DEFINED AND correct routing done" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;main.java PATH DEFINED AND correct routing done" />
+    <MESSAGE value="&#10;Rangers_DAO and Animals_DAO patterns added" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Rangers_DAO and Animals_DAO patterns added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
