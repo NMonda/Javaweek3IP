@@ -10,7 +10,7 @@ public class Sighting_DAO {
     //CREATES  SIGHTINGS TABLE
     public static void createTable (){
         try(Connection db = Database.getConnection().open()){
-            String tableSpell = "CREATE TABLE IF NOT EXISTS sightings (id serial, animal varchar, endangered boolean default false, health varchar, age varchar, location varchar, ranger varchar, time timestamptz, deleted boolean default false);";
+            String tableSpell = "CREATE TABLE IF NOT EXISTS sightings (id serial, animal varchar, endangered boolean default false, health varchar, age varchar, location varchar, ranger varchar, time timestamps, deleted boolean default false);";
             db.createQuery(tableSpell).executeUpdate();
         } catch (Exception error) {System.out.println(error.getMessage());}
     }
