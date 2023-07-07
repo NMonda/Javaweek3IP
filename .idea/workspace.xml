@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10; added Database.java content">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Rangers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Sighting.java" afterDir="false" />
+    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10; added Sighting.java, Rangers.java and Animals.java models">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Sighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/pookie/models/Sighting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688726185194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10; added Sighting.java, Rangers.java and Animals.java models">
+      <created>1688726517496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688726517496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project structure defined &#10; added database and dao" />
     <MESSAGE value="&#10; added Database.java content" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10; added Database.java content" />
+    <MESSAGE value="&#10; added Sighting.java, Rangers.java and Animals.java models" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10; added Sighting.java, Rangers.java and Animals.java models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

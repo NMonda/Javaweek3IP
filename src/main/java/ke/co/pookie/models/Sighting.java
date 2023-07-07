@@ -1,5 +1,5 @@
 package ke.co.pookie.models;
-
+import java.util.Date;
 public class Sighting{
     private Integer id;
     private String animal;
