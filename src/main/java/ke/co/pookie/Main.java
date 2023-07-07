@@ -29,7 +29,7 @@ public class Main {
             return new ModelAndView(new HashMap<>(), "landing-page.hbs");
         }, views);
 
-        //GETS THE ADDING ANIMALS PAGE
+        //ROUTE TO ADD ANIMALS PAGE
         get("/add-animal", (request, response) -> new ModelAndView(new HashMap<>(), "add-animal.hbs"), views);
 
         //ADD TO ANIMAL TABLE
@@ -44,7 +44,7 @@ public class Main {
             return null;
         });
 
-        //GETS THE ALL ANIMALS IN A TABLE FORMAT
+        //LIST ALL SIGHTINGS IN A TABLE
         get("/animals",(request, response) -> {
             Map<String, Object> animalsMap = new HashMap<>();
             animalsMap.put("animal" , Animals_DAO.allAnimals());
@@ -59,7 +59,7 @@ public class Main {
             return null;
         },views);
 
-        //GETS THE HOME PAGE
+        //HOME PAGE ROUTE
         get("/home", (request, response) -> {
             Map<String, Object> animalsMap = new HashMap<>();
             animalsMap.put("animal" , Animals_DAO.allAnimals());
@@ -67,7 +67,7 @@ public class Main {
 
         }, views);
 
-        //GETS ALL THE SIGHTINGS IN A TABLE FORMAT
+        //LIST ALL SIGHTINGS IN A TABLE
         get("/sightings",(request, response) -> {
             Map<String, Object> allSightings = new HashMap<>();
             allSightings.put("sighting",Sighting_DAO.allSightings());
@@ -84,7 +84,7 @@ public class Main {
             return new ModelAndView(animalObject, "add-sighting.hbs");
         }, views);
 
-        //ADD ANIMAL TO SIGHTINGS TABLE
+        //ANIMAL ADDITION TO SIGHTINGS TABLE
         post("/sighting/:animal", (request, response) -> {
             Integer id = null;
             String animal = request.queryParams("animal");
@@ -102,7 +102,7 @@ public class Main {
             return null;
         });
 
-        //DELETING A SIGHTING FROM THE PAGE
+        //DELETING FROM SIGHTING PAGE
         get("/delete-sighting/:animal", (req,res)-> {
             String animal = req.params(":animal");
             Sighting_DAO.deleteSighting(animal);
@@ -134,7 +134,7 @@ public class Main {
             return new ModelAndView(rangersMap, "rangers-table.hbs");
         }, views);
 
-        //DELETING AN ANIMAL FROM THE PAGE
+        //DELETING ANIMAL
         get("/delete-ranger/:ranger", (req,res)-> {
             String ranger = req.params(":ranger");
             Sighting_DAO.deleteSighting(ranger);
