@@ -25,6 +25,35 @@ public class Rangers {
     public String getEmail() { return email; }
     public Boolean getDeleted() { return deleted; }
 
+    public Rangers() {
+        super();
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
     public Rangers(Integer id, String ranger, String username, String gender, String contacts, String email, Boolean deleted) {
         this.id = id;
         this.ranger = ranger;
