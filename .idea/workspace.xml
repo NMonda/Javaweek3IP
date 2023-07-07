@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;add-animal.hbs modified ,more content added">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/add-sighting.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/add-sighting.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688733728924</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;add-sighting.hbs modified ,more content added including wildlife location , age, health and status">
+      <created>1688734228142</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688734228142</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete">
+      <created>1688734454955</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688734454955</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,7 +193,9 @@
     <MESSAGE value="&#10;Sighting_DAO patterns added, WITH LINKS TO ADDING AND DELETING AN Animal to a db" />
     <MESSAGE value="&#10;Sighting_DAO debugged to run with no error codes" />
     <MESSAGE value="&#10;add-animal.hbs modified ,more content added" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;add-animal.hbs modified ,more content added" />
+    <MESSAGE value="&#10;add-sighting.hbs modified ,more content added including wildlife location , age, health and status" />
+    <MESSAGE value="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
