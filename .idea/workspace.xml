@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
+    <list default="true" id="d0d08bde-e6d0-4895-bf68-3298c7909704" name="Changes" comment="&#10;home-page.hbs, layout.hbs and landing-page.hbs content  modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/home-page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/home-page.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/landing-page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/landing-page.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/ranger-add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/ranger-add.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/rangers-table.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/rangers-table.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/sightings-table.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/sightings-table.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/sightings.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/sightings.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/table-layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/table-layout.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688734454955</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&#10;home-page.hbs, layout.hbs and landing-page.hbs content  modified">
+      <created>1688734705002</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688734705002</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +211,8 @@
     <MESSAGE value="&#10;add-animal.hbs modified ,more content added" />
     <MESSAGE value="&#10;add-sighting.hbs modified ,more content added including wildlife location , age, health and status" />
     <MESSAGE value="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;animals-table.hbs modified ,creates tables with ID, NAME and an option to delete" />
+    <MESSAGE value="&#10;home-page.hbs, layout.hbs and landing-page.hbs content  modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;home-page.hbs, layout.hbs and landing-page.hbs content  modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
